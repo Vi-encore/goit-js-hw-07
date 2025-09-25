@@ -19,7 +19,34 @@ h4,
 h5,
 h6,
 p,
-a,
 button {
   letter-spacing: 4%;
+}
+
+.btn-ok,
+.btn-delete {
+  margin-top: 8px;
+  width: 86px;
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-ok {
+  background-color: #4e75ff;
+}
+
+.btn-ok:hover {
+  background-color: #6c8cff;
+}
+
+.btn-delete {
+  background-color: #ff4e4e;
+}
+
+.btn-delete:hover {
+  background-color: #ff7070;
 }

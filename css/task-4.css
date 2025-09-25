@@ -1,0 +1,25 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  padding: 24px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label input {
+  padding: 8px 16px;
+  border: 1px #808080 solid;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form label input:hover {
+  border-color: #212121;
+}
+
