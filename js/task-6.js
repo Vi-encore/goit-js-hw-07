@@ -9,7 +9,7 @@ const createBtn = document.querySelector("[data-create]");
 const destroyBtn = document.querySelector("[data-destroy]");
 const boxesDiv = document.querySelector("#boxes");
 
-function createBoxes(amount) {
+function createBoxes(amount = 0) {
   const tempArr = [];
   let size = 30;
   for (let i = 0; i < amount; i++) {
