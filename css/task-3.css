@@ -1,0 +1,10 @@
+#name-input {
+  width: 360px;
+  padding: 8px 16px;
+  border: 1px #212121 solid;
+  border-radius: 4px;
+}
+
+#name-input::placeholder {
+  color: #212121;
+}
