@@ -23,3 +23,6 @@
   border-color: #212121;
 }
 
+.login-form button {
+  width: 86px;
+}
