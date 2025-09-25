@@ -1,0 +1,40 @@
+#controls,
+#boxes {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 1128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+#controls {
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+#controls button {
+  width: 120px;
+  margin: 0;
+}
+
+#controls input {
+  width: 150px;
+  padding: 8px 16px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px #808080 solid;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#controls input:hover {
+  border-color: #212121;
+}
+
+#boxes {
+  gap: 44px;
+  flex-wrap: wrap;
+}
